@@ -6,16 +6,16 @@ import Sailfish.Silica 1.0
 CoverBackground {
 
     Label {
-        anchors.top: back.top
+        //anchors.top: back.top
         anchors.horizontalCenter: parent.horizontalCenter
         id: label
-        text: qsTr("Simple-Mahjong-Solitaire")
+        text: qsTr("Simple Mahjong")
     }
     Image {
 
         id:hnImage
         anchors.centerIn: parent
-        source: "/usr/share/icons/hicolor/86x86/apps/harbour-greenmahjong.png"
+        source: "/usr/share/icons/hicolor/128x128/apps/harbour-simplemahjong.png"
         //source: Qt.resolvedUrl("harbour-hackernews.png")
         //anchors.fill: parent
 
@@ -25,7 +25,7 @@ CoverBackground {
 
     CoverActionList {
         id: coverAction
-
+       /*
         CoverAction {
             iconSource: "image://theme/icon-cover-next"
         }
@@ -33,6 +33,7 @@ CoverBackground {
         CoverAction {
             iconSource: "image://theme/icon-cover-pause"
         }
+        */
     }
 }
 

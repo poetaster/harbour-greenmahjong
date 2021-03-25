@@ -10,14 +10,16 @@
 #   - translation filenames have to be changed
 
 # The name of your application
-TARGET = harbour-greenmahjong
+TARGET = harbour-simplemahjong
 
 CONFIG += sailfishapp
 
-SOURCES += src/harbour-greenmahjong.cpp
+SOURCES += \
+    src/harbour-simplemahjong.cpp
 
-DISTFILES += qml/harbour-greenmahjong.qml \
+DISTFILES += \
     qml/cover/CoverPage.qml \
+    qml/harbour-simplemahjong.qml \
     qml/pages/About.qml \
     qml/pages/FirstPage.qml \
     qml/js/*.js \
@@ -26,13 +28,13 @@ DISTFILES += qml/harbour-greenmahjong.qml \
     qml/fonts/*.ttf \
     index.html \
     index.old.html \
-    rpm/harbour-greenmahjong.changes.in \
-    rpm/harbour-greenmahjong.changes.run.in \
-    rpm/harbour-greenmahjong.spec \
-    rpm/harbour-greenmahjong.yaml \
+    rpm/harbour-simplemahjong.changes.in \
+    rpm/harbour-simplemahjong.changes.run.in \
+    rpm/harbour-simplemahjong.spec \
+    rpm/harbour-simplemahjong.yaml \
     translations/*.ts \
-    harbour-greenmahjong.png \
-    harbour-greenmahjong.desktop
+    harbour-simplemahjong.png \
+    harbour-simplemahjong.desktop
 
 SAILFISHAPP_ICONS = 86x86 108x108 128x128
 

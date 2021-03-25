@@ -19,7 +19,7 @@ Page {
             spacing: Theme.paddingLarge
 
             PageHeader {
-                title: "Simple-Mahjong-Solitaire"
+                title: "Simple Mahjong Solitaire"
             }
             Label {
                 text: "Version 1.0.0, for Sailfish by poetaster, based on (C) Uwe Hoffmann 2018, Spinoff of Green-Mahjong, Copyright 2014, Daniel Beck and Karin Beck."
