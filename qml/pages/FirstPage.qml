@@ -13,14 +13,21 @@ Page {
                 }*/
         }
     }
+    PullDownMenu {
+        MenuItem {
+            text: qsTr("About")
+            onClicked: {
+                pageStack.push(Qt.resolvedUrl("About.qml"),{});
+            }
+        }
+    }
     SilicaWebView {
-
         id: webView
         anchors.fill: parent
         url: "../index.html"
     }
-
-    /*SilicaFlickable {
+    /*
+    SilicaFlickable {
         anchors.fill: parent
 
         // PullDownMenu and PushUpMenu must be declared in SilicaFlickable, SilicaListView or SilicaGridView
@@ -29,14 +36,18 @@ Page {
                 text: qsTr("About")
                 onClicked: {
                     pageStack.push(Qt.resolvedUrl("About.qml"),{});
-
-
-
                 }
             }
         }
 
-    }*/
+    SilicaWebView {
+        id: webView
+        anchors.fill: parent
+        url: "../index.html"
+    }
+
+    }
+    */
 
 }
 
