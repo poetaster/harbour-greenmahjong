@@ -13,6 +13,7 @@ Version:    1.1
 Release:    1
 Group:      Qt/Qt
 License:    GPLv3
+BuildArch:  noarch
 URL:        http://poetaster.de
 Source0:    %{name}-%{version}.tar.bz2
 Requires:   libsailfishapp-launcher
