@@ -9,23 +9,38 @@ Name:       harbour-simplemahjong
 # << macros
 
 Summary:    Simple Mahjong
-Version:    1.0
+Version:    1.1
 Release:    1
 Group:      Qt/Qt
-License:    GPL v3
+License:    GPLv3
 URL:        http://poetaster.de
 Source0:    %{name}-%{version}.tar.bz2
-Source100:  harbour-simplemahjong.yaml
-Requires:   sailfishsilica-qt5 >= 0.10.9
+Requires:   libsailfishapp-launcher
 BuildRequires:  pkgconfig(sailfishapp) >= 1.0.2
 BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(Qt5Qml)
 BuildRequires:  pkgconfig(Qt5Quick)
 BuildRequires:  desktop-file-utils
-
 %description
 a simple mahjong tile solitaire
 
+%if "%{?vendor}" == "chum"
+PackageName: Simple Mahjong
+Type: desktop-application
+Categories:
+ - Game
+DeveloperName: Mark Washeim
+Custom:
+ - Repo: https://github.com/poetaster/harbour-simplemahjong
+Icon: https://raw.githubusercontent.com/poetaster/harbour-simplemahjong/master/icons/172x172/harbour-moremahjong.png
+Screenshots:
+ - https://raw.githubusercontent.com/poetaster/harbour-simplemahjong/main/screen-1.jpg
+ - https://raw.githubusercontent.com/poetaster/harbour-simplemahjong/main/screen-2.jpg
+ - https://raw.githubusercontent.com/poetaster/harbour-simplemahjong/main/screen-3.jpg
+Url:
+  Homepage: https://github.com/poetaster/harbour-simplemahjong
+  Donation: https://www.paypal.me/poetasterFOSS
+%endif
 
 %prep
 %setup -q -n %{name}-%{version}

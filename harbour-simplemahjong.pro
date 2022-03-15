@@ -12,10 +12,7 @@
 # The name of your application
 TARGET = harbour-simplemahjong
 
-CONFIG += sailfishapp
-
-SOURCES += \
-    src/harbour-simplemahjong.cpp
+CONFIG += sailfishapp_qml
 
 DISTFILES += \
     qml/cover/CoverPage.qml \
@@ -31,7 +28,6 @@ DISTFILES += \
     rpm/harbour-simplemahjong.changes.in \
     rpm/harbour-simplemahjong.changes.run.in \
     rpm/harbour-simplemahjong.spec \
-    rpm/harbour-simplemahjong.yaml \
     translations/*.ts \
     harbour-simplemahjong.png \
     harbour-simplemahjong.desktop
