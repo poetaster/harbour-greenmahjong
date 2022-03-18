@@ -32,14 +32,14 @@ Categories:
  - Game
 DeveloperName: Mark Washeim (poetaster)
 Custom:
- - Repo: https://github.com/poetaster/harbour-simplemahjong
-Icon: https://raw.githubusercontent.com/poetaster/harbour-simplemahjong/master/icons/172x172/harbour-moremahjong.png
+ - Repo: https://github.com/poetaster/harbour-greenmahjong
+Icon: https://raw.githubusercontent.com/poetaster/harbour-greenmahjong/master/icons/172x172/harbour-moremahjong.png
 Screenshots:
- - https://raw.githubusercontent.com/poetaster/harbour-simplemahjong/main/screen-1.jpg
- - https://raw.githubusercontent.com/poetaster/harbour-simplemahjong/main/screen-2.jpg
- - https://raw.githubusercontent.com/poetaster/harbour-simplemahjong/main/screen-3.jpg
+ - https://raw.githubusercontent.com/poetaster/harbour-greenmahjong/main/screen-1.jpg
+ - https://raw.githubusercontent.com/poetaster/harbour-greenmahjong/main/screen-2.jpg
+ - https://raw.githubusercontent.com/poetaster/harbour-greenmahjong/main/screen-3.jpg
 Url:
-  Homepage: https://github.com/poetaster/harbour-simplemahjong
+  Homepage: https://github.com/poetaster/harbour-greenmahjong
   Donation: https://www.paypal.me/poetasterFOSS
 %endif
 
